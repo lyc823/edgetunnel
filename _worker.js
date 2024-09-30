@@ -1304,7 +1304,7 @@ function 配置信息(UUID, 域名地址) {
   uuid: ${用户ID}
   network: ${传输层协议}
   tls: ${传输层安全[1]}
-  udp: false
+  udp: true
   sni: ${SNI}
   client-fingerprint: ${指纹}
   ws-opts:
